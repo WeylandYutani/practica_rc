@@ -11,6 +11,7 @@ class RNBPv4Cliente {
 	
 	public static void main(String argv[]) throws Exception 
 	{
+	//comentario
 		BufferedReader entradaDesdeUsuario = new BufferedReader(new InputStreamReader(System.in)); 
 
 	    Socket socketCliente = new Socket("serverrc.af.lab", 56794);
